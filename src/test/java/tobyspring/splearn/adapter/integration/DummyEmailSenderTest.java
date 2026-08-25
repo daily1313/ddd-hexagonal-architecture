@@ -1,7 +1,7 @@
 package tobyspring.splearn.adapter.integration;
 
 import org.junit.jupiter.api.Test;
-import tobyspring.splearn.domain.Email;
+import tobyspring.splearn.domain.shared.Email;
 
 class DummyEmailSenderTest {
 
