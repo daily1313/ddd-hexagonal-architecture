@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -24,7 +23,7 @@ import static org.mockito.Mockito.when;
 @Slf4j
 @RequiredArgsConstructor
 @WebMvcTest(MemberApi.class)
-class MemberApiTest {
+class MemberWebMvcApiTest {
 
     @MockitoBean
     MemberRegister memberRegister;
